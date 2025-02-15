@@ -8,11 +8,7 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                 
-            }
-        }
+        
 
         stage('Stop Previous Flask App') {
             steps {
