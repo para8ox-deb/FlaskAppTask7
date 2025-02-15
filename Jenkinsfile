@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'file:///F:/Study/Aakash {Form}/College Placement/Worldline - CTC/TRAINING/Level-2/Jenkins for Continuous Integration/Task7/FlaskAppTask7' 
+                git branch: 'main', url: 'https://github.com/para8ox-deb/FlaskAppTask7.git' 
             }
         }
 
